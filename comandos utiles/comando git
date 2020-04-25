@@ -1,0 +1,13 @@
+# Eliminar la advertencia de crlf
+git config core.autocrlf true
+
+# Añadir alias
+git config --global alias.XX "Comandos sin GIT"
+
+# Añadir tag
+git tag -a v1.0.0 -m"versión 1.0.0"
+
+#----------------------------GITHUB------------------------#
+# Añadir tags del proyecto a GITHUB
+git push --tags
+
